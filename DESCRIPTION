@@ -7,9 +7,27 @@ License: MIT + file LICENSE
 Imports: 
     config,
     golem,
-    shiny
+    shiny,
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools,
+    shinydashboard,
+    shinyAce,
+    formattable,
+    dplyr,
+    ggfortify,
+    broom,
+    survival,
+    psych
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
 URL: chk2136/SurvivalHazardExtraction
 BugReports: chk2136/SurvivalHazardExtraction/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
