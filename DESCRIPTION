@@ -1,0 +1,15 @@
+Package: SurvivalHazardExtraction
+Title: Extract Hazard Parameters from Survival Analysis for Health Economic Modeling
+Version: 0.0.0.9000
+Authors@R: person('Chong', 'Kim', email = 'chong@stratevi.com', role = c('cre', 'aut'))
+Description: 
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+URL: chk2136/SurvivalHazardExtraction
+BugReports: chk2136/SurvivalHazardExtraction/issues
