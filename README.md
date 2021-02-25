@@ -1,0 +1,44 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# SurvivalHazardExtraction
+
+<!-- badges: start -->
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+<!-- badges: end -->
+
+The goal of SurvivalHazardExtraction is to assist researchers working on
+health economic models that includes survival data. Specifically, when
+trying to build out cost-effective models with transition probabilities
+dependent on various correlated parameters, this shiny app will
+facilitate extracting the variance covariance as well as correlation
+matrices in order to generate estimates of ICER in a probabilistic
+framework.
+
+## Installation
+
+You can install SurvivalHazardExtraction via:
+
+``` r
+devtools::install_github("ck2136/SurvivalHazardExtraction")
+```
+
+## Running the Shiny App
+
+The easiest way to run the app is to clone the repo into a folder then
+opening the project via Rstudio. Afterwards, execute the `R/run_dev.R`
+code and a local shiny app will be executed.
+
+## Contact
+
+If there are any questions please do not hesitate to contact
+[me](mailto:chongg511g@gmail.com)
+
+## Code of Conduct
+
+Please note that the SurvivalHazardExtraction project is released with a
+[Contributor Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
